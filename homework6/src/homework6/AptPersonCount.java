@@ -7,7 +7,7 @@ public class AptPersonCount {
 	int[][] num = new int[5][3];
 	int i, j, k, peple, sum = 0, one, two, three;
 	public void PersonCount() {
-		System.out.println("5층 아파트의 거주자 인원 파알하기");
+		System.out.println("5층 아파트의 거주자 인원 파악하기");
 		
 		for(i = 1; i <= 5; i++){
 			for(j = 1; j <= 3; j++){

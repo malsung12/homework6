@@ -16,21 +16,14 @@ public class ExamVariousArray {
 				+ "1.두번째로 큰 수 찾기\n2.심사 점수 계산\n3.학생 총점, 평균값 구하기\n4.5층 아파트의 거주자 숫자 구하기\n5.겹치지 않는 숫자 10개입력받기\n"
 				+ "6.종료하기\n원하는 메뉴는 >>> ");
 		select = a.nextInt();
-		/************
-		if(select == 1)
-			new SencondMax().condMax();
-		if else (select == 2)
-			new AvgScore().Score();
-		if else (select == 3)
-			new StudentScore.dentScore();
-		if else (select == 4)
-			new AptPersonCount.PersonCount();
-		if else (select == 5)
-			new OnlyNumber.Number();*/
-		if (select == 6)
-			break;
-		else
-			System.out.println("잘못입력하셧습니다.");
+		
+		if(select == 1) new SecondMax().condMax();
+		else if (select == 2) new AvgScore().Score();
+		else if (select == 3) new StudentScore().dentScore();
+		else if (select == 4) new AptPersonCount().PersonCount();
+		else if (select == 5) new OnlyNumber().Number();
+		else if (select == 6) break;
+		else System.out.println("잘못입력하셧습니다.");
 		}
 	}
 

@@ -29,6 +29,6 @@ public class AvgScore {
 			sum = sum + num[x];
 		}
 		avg = sum / 8;
-		System.out.println("가장큰 점수와 가장 작은 점수를 제외한8개의 점수 평균은"+ avg+"입니다.");
+		System.out.println("가장큰 점수와 가장 작은 점수를 제외한 8개의 점수 평균은"+ avg+"입니다.");
 	}
 }

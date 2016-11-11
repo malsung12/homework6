@@ -14,9 +14,7 @@ public class StudentScore {
 	public void dentScore(){
 		for(i = 0; i < 5; i++){
 				System.out.print(i+1+"번째 학생 국어, 영어, 수학: ");
-				num[i][0] = scan.nextInt();
-				num[i][1] = scan.nextInt();
-				num[i][2] = scan.nextInt();
+				num[i][0] = scan.nextInt();num[i][1] = scan.nextInt();num[i][2] = scan.nextInt();
 		}
 		for(i = 0; i < 5; i++){
 				kor = kor + num[i][0];
